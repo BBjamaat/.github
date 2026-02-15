@@ -8,7 +8,7 @@ A simple app that checks the lecture and lab schedules and shows which rooms in 
 
 ## Data
 
-Room and schedule data is in [`public/`](public/) — `LECTURE_ROOMS.json`, `LAB_ROOMS.json`, `LECTURE_ACTIVITY.json`, `LAB_ACTIVITY.json`, and `META.json`.
+Room and schedule data is in [`public/`](public/) — `LECTURE_ROOMS.json`, `LAB_ROOMS.json`, `LECTURE_ACTIVITY.json`, `LAB_ACTIVITY.json`, and `META.json`. The JSON files need to be downloaded manually from the university's Rooster (timetable) system. Ideally this would be fetched server-side or automated via GitHub Actions on deploy, but that's too try-hard for a personal tool.
 
 ## Setup
 
